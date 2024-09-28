@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/lightblack"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:clickable="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="200dp">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/Titlehead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:maxWidth="120dp"
+        android:maxLines="2"
+        android:text="Heading1"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+        <TextView
+            android:id="@+id/Titlebody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="180"
+            android:maxWidth="120dp"
+            android:maxLines="5"
+            android:layout_below="@id/Titlehead"
+            android:text="I am shitol Roy. I am loving to develope android apps.This is a notepad App using..."
+            android:fontFamily="@font/ubuntu_light"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:textColor="#B1AEAE"
+            />
+
+        <TextView
+            android:id="@+id/Createdtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="180"
+            android:layout_alignParentBottom="true"
+            android:maxWidth="120dp"
+            android:maxLines="5"
+            android:text="24 sept"
+            android:fontFamily="@font/ubuntu_medium"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:textColor="#B1AEAE"
+            android:layout_alignParentRight="true"
+            />
+
+        <ImageButton
+            android:id="@+id/deletbtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:src="@drawable/delet_ic"/>
+
+
+
+</RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

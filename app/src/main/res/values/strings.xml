@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">New Note App</string>
+    <string name="home_title">MY NOTES</string>
+    <string name="blank_data_txt">Your canvas is blank, waiting for your thoughts. Dive in and let your creativity flow. Every idea matters!</string>
+</resources>
